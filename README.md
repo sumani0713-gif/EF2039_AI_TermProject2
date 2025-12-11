@@ -1,19 +1,15 @@
 # 1. Project Overview
 
 This project aims to develop an end-to-end AI regression model that predicts medical insurance charges based on personal demographic and health-related attributes.
+
 The objective is to experience the full AI development cycle, including:
 
-dataset preprocessing
-
-model architecture design
-
-training
-
-evaluation
-
-visualization
-
-GitHub-based distribution
+- dataset preprocessing
+- model architecture design
+- training
+- evaluation 
+- visualization
+- GitHub-based distribution
 
 The model is implemented from scratch without using any pre-trained weights.
 
@@ -24,7 +20,7 @@ The model is implemented from scratch without using any pre-trained weights.
 age, bmi, children, sex (categorical → one-hot encoded), smoker (categorical → one-hot encoded), region (categorical → one-hot encoded), charges (target variable), 
 
 - Preprocessing Steps
-mplemented in preprocess.py:
+Implemented in preprocess.py:
 One-hot encoding for categorical variables
 Standardization of input features (X) using StandardScaler
 Standardization of the target value (y-scaling)
